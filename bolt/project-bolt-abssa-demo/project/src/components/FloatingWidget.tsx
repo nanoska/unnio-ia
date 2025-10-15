@@ -254,7 +254,7 @@ export default function FloatingWidget() {
         style={{
           left: `${position.x}px`,
           top: `${position.y}px`,
-          boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2), 0 0 0 3px rgba(59, 130, 246, 0.3)',
+          boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2)',
           WebkitUserSelect: 'none',
           MozUserSelect: 'none',
           userSelect: 'none',
@@ -282,7 +282,7 @@ export default function FloatingWidget() {
       } ${displayMode === 'expanded' ? 'animate-widget-expand' : ''}`}
       style={{
         transition: 'all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)',
-        boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.08), 0 4px 20px rgba(0, 0, 0, 0.1)',
+        boxShadow: '0 20px 60px rgba(0, 0, 0, 0.15), 0 4px 20px rgba(0, 0, 0, 0.1)',
         transformOrigin: 'center center',
       }}
     >
